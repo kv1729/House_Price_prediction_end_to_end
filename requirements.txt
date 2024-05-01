@@ -1,12 +1,7 @@
+Flask
+scikit-learn
 pandas
 numpy
-seaborn
 matplotlib
-scikit-learn
-catboost
-xgboost
-Flask
+gunicorn
 
--e .
-
-#-e .
