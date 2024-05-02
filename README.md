@@ -3,6 +3,11 @@
 ## Overview
 This project aims to predict house prices in Boston using machine learning techniques. It utilizes a dataset containing various features such as crime rate, zoning information, and other socio-economic factors to predict the price of houses.
 
+## Dataset
+- **BostonHousing.csv:** Dataset file containing Boston housing data.
+- [Boston Housing Dataset (Kaggle)](https://www.kaggle.com/c/boston-housing): Link to the Kaggle dataset.
+
+
 ## Table of Contents
 - [Project Structure](#project-structure)
 - [Installation](#installation)
@@ -13,14 +18,25 @@ This project aims to predict house prices in Boston using machine learning techn
 
 ## Project Structure
 ```
-├── app.py                   # Flask application for running the prediction API
-├── templates                # HTML templates for web interface
-│   ├── home.html            # Main HTML file for user interface
-├── static                   # Static files such as CSS stylesheets
-│   └── styles.css           # CSS styles for HTML templates
-├── scaling.pkl              # Pickled scaler for scaling input data
-├── regmodel.pkl             # Pickled regression model for house price prediction
-└── README.md                # Documentation and project information
+House_Price_prediction_end_to_end/
+│
+├── app.py
+├── Linear_Regression_ML_Implementation_House_Price_Prediction.ipynb
+├── README.md
+├── .gitignore
+├── requirements.txt
+├── scaling.pkl
+├── regmodel.pkl
+│
+├── static/
+│   └── styles.css
+│
+├── templates/
+│   └── home.html
+│
+└── Dataset/
+    └── BostonHousing.csv
+           # Documentation and project information
 ```
 
 ## Installation
